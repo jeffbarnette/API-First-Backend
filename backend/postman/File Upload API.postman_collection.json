@@ -30,7 +30,7 @@
 			"response": []
 		},
 		{
-			"name": "POST Upload Copy",
+			"name": "POST Upload",
 			"request": {
 				"method": "POST",
 				"header": [],
