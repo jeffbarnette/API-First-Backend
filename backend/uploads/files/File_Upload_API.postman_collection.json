@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "0adc840b-b75f-4008-b6b9-cc903bd7563f",
+		"name": "File Upload API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Upload",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/upload/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"upload",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Upload Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/jeffbarnette/Code/API-First-Backend/backend/postman/sample.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/upload/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"upload",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
