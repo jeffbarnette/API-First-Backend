@@ -92,7 +92,7 @@ _Note: You should already have the Docker container running before completing th
 ![Postman - Invalid ID](docs/postman_id_error.png)
 
 
-### Unit and Itegration Testing
+### Unit and Integration Testing
 
 The included tests cover API, Unit and Integration tests by testing the endpoints, the model and the views.
 
