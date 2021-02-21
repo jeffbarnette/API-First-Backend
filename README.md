@@ -1,7 +1,7 @@
 # API-First-Backend
 An API-frst backend using Python and Django Rest Framework (DRF)
 
-This exercise demonstrates how to upload and process a pipe delimited text file to extract information contained within the file and store it in the database using and API endpoint. It also demonstrates how to retrieve the information based on a file id.
+This exercise demonstrates how to upload and process a pipe delimited text file to extract information contained within the file and store it in the database using and API endpoint. It also demonstrates how to retrieve the information based on am upload id.
 
 
 ### Requirements
